@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mArticulos" android:title="Articulos"></item>
+        <item android:id="@+id/mClientes" android:title="Clientes"></item>
+        <item android:id="@+id/mPedidos" android:title="Pedidos"></item>
+    </group>
+    <item android:title="Otras opciones">
+        <menu>
+            <item android:id="@+id/mCerrarSesion" android:title="Cerrar sesión"></item>
+        </menu>
+    </item>
+</menu>
